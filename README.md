@@ -1,5 +1,5 @@
 
-# Jobify app
+# Parking Api
 Application for booking car parking with authorization, CRUD functionality
 
 
