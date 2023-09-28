@@ -1,55 +1,37 @@
 
 # Jobify app
-Application for adding jobs with authorization, CRUD functionality and some statistics diagrams
+Application for booking car parking with authorization, CRUD functionality
 
 
 
 
 ## Features
 
-- Login/Register/Logout 
+- Login/Register/Logout/Reset Password
 - Cookies
-- CRUD jobs functionality
-- Search/Filter jobs
-- Pagination
-- Charts
+- CRUD functionality
 - JWT token
 
 
 ## Tech Stack
 
-**Client:** React
-
-**Server:** Node, Express, Mongoose, Mongodb
+**Server:** Node, Express, MySql
 
 
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`MONGO_URL`
+`DBPASS`
 
-`JWT_SECRET`
+`HOST`
+
+`USER`
+
+`DATABASE`
+
+`SECRET_KEY`
 
 `JWT_LIFETIME`
 
-`TEST_USER_ID`
-
-
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm run deploy
-```
-
-
-## Lessons Learned
-
-Got familiar with building full stack application, tried out styled-components and some new packages. 
-
-
-## Demo
-
-link: https://mern-jobify-tsez.onrender.com
+`ORIGIN`
